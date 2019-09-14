@@ -7,7 +7,7 @@ module.exports = {
   output:{
     // path:__dirname+'/dist'//错！因为其他操作系统的目录分隔符不是/
     path:path.resolve(__dirname,'dist/lib'),// nodejs的目录系统
-    libraryTarget:'umd'//
+    libraryTarget:'umd'//可选值：umd amd commonjs global this window
 
   },
   module:{
