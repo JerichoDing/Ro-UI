@@ -1,5 +1,5 @@
 {
-  "name": "FUI",
+  "name": "fui",
   "version": "1.0.0",
   "description": "My first React UI",
   "main": "dist/lib/fui.js",
