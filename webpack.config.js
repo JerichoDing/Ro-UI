@@ -4,7 +4,7 @@ module.exports = {
   // mode:'production',  // 如果为production 则会提醒性能方面的问题 最后要分别放置
   // devtool: 'inline-source-map',
   entry:{
-    FUI:'./libs/index.tsx'  // FUI就是输出的文件名，如jquery.js
+    fui:'./lib/index.tsx'  // FUI就是输出的文件名(库的名字)，如jquery.js
   },
   output:{
     // path:__dirname+'/dist'//错！因为其他操作系统的目录分隔符不是/
@@ -18,7 +18,7 @@ module.exports = {
   module:{
     rules:[// 随机应变去找合适的rules
       {
-        test:'/\.tsx?$/',  //匹配所有的tsx文件或者tx
+        test: /\.tsx?$/,  //匹配所有的tsx文件或者tx
         loader:'awesome-typescript-loader'
       }
     ] 
