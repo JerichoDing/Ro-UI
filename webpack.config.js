@@ -1,7 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-  mode:'production',
+  mode:'development',  // 如果为production 则会提醒性能方面的问题
+  // devtool: 'inline-source-map',
   entry:{
     FUI:'./libs/index.tsx'  // FUI就是输出的文件名，如jquery.js
   },
