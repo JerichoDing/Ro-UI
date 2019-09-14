@@ -24,7 +24,8 @@
     "noUnusedLocals": true
   },
   "include": [
-    "**/*"
+    "**/*",
+    "lib/**/*" // 告诉ts该文件夹下是我的源文件 ts要管的
   ],
   "exclude": [
     "node_modules",

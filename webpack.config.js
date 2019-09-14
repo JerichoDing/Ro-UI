@@ -20,7 +20,11 @@ module.exports = {
       {
         test: /\.tsx?$/,  //匹配所有的tsx文件或者tx
         loader:'awesome-typescript-loader'
-      }
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-sprite-loader',
+      },
     ] 
   },
   // 非公有
