@@ -1,9 +1,10 @@
 {
-  "name": "fui",
-  "version": "1.0.0",
+  "name": "ro-ui-demo",
+  "version": "0.0.1",
   "description": "My first React UI",
   "main": "dist/lib/fui.js",
   "types": "dist/lib/fui",
+  "files":["/dist", "package.json", "README.md", "LICENSE"],
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --config=jest.config.js --runInBand",
     "ci": "cross-env NODE_ENV=test JEST_JUNIT_OUTPUT=./test-results/jest/results.xml jest --config=jest.config.js",
