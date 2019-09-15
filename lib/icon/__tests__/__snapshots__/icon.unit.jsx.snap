@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon 测试开始 render successfully 1`] = `
+<svg
+  className="fui-icon"
+  href=""
+  target=""
+>
+  <use
+    xlinkHref="#wechat"
+  />
+</svg>
+`;
