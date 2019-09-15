@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" time="6.365">
+  <testsuite name="button 测试开始" errors="0" failures="0" skipped="0" timestamp="2019-09-15T15:23:31" time="2.417" tests="1">
+    <testcase classname="button 测试开始 是个div" name="button 测试开始 是个div" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="classes" errors="0" failures="0" skipped="0" timestamp="2019-09-15T15:23:31" time="2.642" tests="4">
+    <testcase classname="classes 接受0个className" name="classes 接受0个className" time="0.006">
+    </testcase>
+    <testcase classname="classes 接受1个className" name="classes 接受1个className" time="0">
+    </testcase>
+    <testcase classname="classes 接受2个className" name="classes 接受2个className" time="0.001">
+    </testcase>
+    <testcase classname="classes 接受多个奇怪的className" name="classes 接受多个奇怪的className" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Icon 测试开始" errors="0" failures="0" skipped="0" timestamp="2019-09-15T15:23:31" time="2.782" tests="2">
+    <testcase classname="Icon 测试开始 render successfully" name="Icon 测试开始 render successfully" time="0.018">
+    </testcase>
+    <testcase classname="Icon 测试开始 onclick successfully" name="Icon 测试开始 onclick successfully" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="我的第一测试用例 请忽略" errors="0" failures="0" skipped="0" timestamp="2019-09-15T15:23:34" time="0.354" tests="1">
+    <testcase classname="我的第一测试用例 请忽略 1+2=3" name="我的第一测试用例 请忽略 1+2=3" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
