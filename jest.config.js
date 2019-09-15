@@ -4,11 +4,12 @@ module.exports = {
   verbose: true,
   clearMocks: false,
   collectCoverage: true, // 收集测试覆盖率
+  reporters: ["default","jest-junit"],
 
-  collectCoverageFrom: ["lib/**/*.{js,jsx,ts,tsx}", "!**/node_modules/**"],
+  collectCoverageFrom: ["lib/**/*.{ts,tsx}", "!**/node_modules/**"],
   coverageDirectory: 'coverage',
   coverageReporters: ['text', 'lcov'],
-  reporters: ["default"],
+
   // globals: {
   //   'ts-jest': {
   //     tsConfig: 'tsconfig.test.json',
