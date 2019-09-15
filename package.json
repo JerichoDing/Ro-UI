@@ -1,6 +1,6 @@
 {
   "name": "ro-ui-demo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "My first React UI",
   "main": "dist/lib/fui.js",
   "types": "dist/lib/fui",
