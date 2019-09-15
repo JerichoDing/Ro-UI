@@ -3,10 +3,11 @@
 module.exports = {
   verbose: true,
   clearMocks: false,
-  collectCoverage: false,
-  // collectCoverageFrom: ["{lib,include}/**/*.{js,jsx,ts,tsx}", "!**/node_modules/**"],
-  // coverageDirectory: 'coverage',
-  // coverageReporters: ['text', 'lcov'],
+  collectCoverage: true, // 收集测试覆盖率
+
+  collectCoverageFrom: ["lib/**/*.{js,jsx,ts,tsx}", "!**/node_modules/**"],
+  coverageDirectory: 'coverage',
+  coverageReporters: ['text', 'lcov'],
   reporters: ["default"],
   // globals: {
   //   'ts-jest': {
