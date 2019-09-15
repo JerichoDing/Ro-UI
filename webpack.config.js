@@ -25,9 +25,28 @@ module.exports = {
         test: /\.svg$/,
         loader: 'svg-sprite-loader',
       },
+      {
+        test: /\.s([ac])ss$/,
+        loader:['style-loader','css-loader','sass-loader'],
+        // TODO:下面的有什么用？
+        //  use: [
+        //   devMode ? 'style-loader' : {
+        //     loader: MiniCssExtractPlugin.loader,
+        //     options: {
+        //       // publicPath: '../'
+        //     }
+        //   },
+        //   'css-loader',
+        //   {
+        //     loader: "sass-loader",
+        //     options: {
+        //       includePaths: [path.resolve(__dirname, 'stylesheets', 'include')]
+        //     }
+        //   }]
+      }
     ] 
   },
-  // 非公有
+  // 以下为非公有部分
   // plugins:[
   //   new HtmlWebpackPlugin({ title:'FUI',template:'index.html' })  // 在index里动态插入js
   // ],
